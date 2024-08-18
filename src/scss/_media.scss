@@ -1,5 +1,7 @@
+@use "./variables" as *;
+
 @mixin bigscreen {
-  @media (min-width: $bigscreen) {
+  @media (min-width: $big) {
     @content;
   }
 }
