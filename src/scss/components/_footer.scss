@@ -2,108 +2,164 @@
 @use "../media" as *;
 
 .footer {
-  padding: 80px 0 32px;
-  background-color: $green;
-  background-image: url("/img/paw.svg");
-  background-repeat: no-repeat;
-  color: $light;
-  background-position: left 41vw bottom -75px;
-  background-size: 375px;
+  padding: 60px 0;
+  background-color: $accent-pink;
+  color: $white;
+  font-size: 12px;
 
   @include laptop {
-    padding-top: 50px;
-    background-size: 311px;
+    padding: 50px 0;
   }
 
   @include tablet {
-    padding-top: 40px;
-    background-size: 215px;
-    background-position: right 46px bottom -45px;
+    padding: 40px 0;
   }
 
   @include mobile {
-    padding: 30px 0 24px;
-    background-size: 144px;
-    background-position: right -30px bottom -30px;
+    font-size: 10px;
   }
 
   &__container {
     display: grid;
-    gap: 50px;
-    grid-template-areas:
-      "logo contacts"
-      "info contacts";
+    gap: 110px;
+    grid-template-columns: repeat(5, 1fr);
+
+    @include laptop {
+      gap: 58px;
+    }
 
     @include tablet {
-      gap: 82px 30px;
+      padding: 0 20px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
     }
 
     @include mobile {
-      gap: 0;
+      grid-template-columns: auto;
+      gap: 50px;
       grid-template-areas:
-        "logo"
-        "contacts"
-        "info";
+        "info contacts"
+        "feedback feedback";
     }
   }
 
   &__logo {
-    grid-area: logo;
-    width: 331px;
-
     @include tablet {
-      width: 200px;
+      display: none;
     }
+  }
 
-    @include mobile {
-      margin-bottom: 32px;
-    }
+  &__title {
+    text-transform: uppercase;
+    font-family: $third-family;
+    font-weight: 400;
+    font-size: 12px;
+    color: $accent-red;
+    margin-bottom: 14px;
   }
 
   &__info {
-    grid-area: info;
-    font-size: 16px;
-
-    @media moblie {
-      font-size: 12px;
-    }
-  }
-
-  &__copyright {
-    margin-bottom: 16px;
-  }
-
-  &__text {
-    margin-bottom: 3px;
-  }
-
-  &__item {
-    margin-bottom: 3px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-
-  &__contacts {
-    grid-area: contacts;
-    justify-self: end;
-    font-style: normal;
 
     @include mobile {
-      margin-bottom: 66px;
-      justify-self: start;
+      grid-area: info;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      @include tablet {
+        margin-bottom: 9px;
+      }
+    }
+
+    &-socials {
+      display: none;
+
+      @include tablet {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+      }
     }
   }
 
-  &__email {
-    display: inline-block;
-    margin-bottom: 16px;
+  &__address {
+    width: 165px;
+
+    @include tablet {
+      width: 120px;
+    }
+
+    @include mobile {
+      width: 90px;
+      grid-area: contacts;
+    }
+
+    &-title {
+      @include tablet {
+        display: none;
+      }
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    address {
+      font-style: normal !important;
+    }
+
+    &-item {
+      &_days {
+        @include tablet {
+          display: none;
+        }
+      }
+
+      &_time {
+        display: none;
+
+        @include tablet {
+          display: block;
+        }
+      }
+    }
   }
 
-  &__social-list {
+  &__socials {
+    @include tablet {
+      display: none;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+    }
+  }
+
+  &__feedback {
     display: flex;
-    align-items: center;
-    gap: 12px;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+
+    @include mobile {
+      grid-area: feedback;
+    }
+
+    &-text {
+      width: 160px;
+      margin-bottom: 20px;
+    }
+
+    &-link {
+      text-decoration: underline;
+      margin-bottom: 0;
+    }
   }
 }
