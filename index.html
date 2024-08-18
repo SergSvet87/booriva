@@ -1,13 +1,80 @@
 <!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booriva - інтернет-магазин одягу</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booriva - інтернет-магазин одягу</title>
+</head>
+
+<body>
+  <div id="root">
+    <header className="header">
+      <div className="container header__container">
+        <div className="header__top">
+          <div className="header__info-left">
+            <ul>
+              <li><img src="public/images/location-icon.svg" alt="">Київ, Нижній Вал, 37</li>
+              <li><img src="public/images/phone-icon.svg" alt="">+38 063 843 34 71</li>
+            </ul>
+
+          </div>
+          <div className="header__logo">
+            <a className="header__logo-link" href="/">
+              <img className="header__logo" src="public/images/logo.svg" alt="logo" />
+            </a>
+          </div>
+
+          <div className="header-infi-right">
+            <ul>
+              <li>
+                <img src="public/images/search-icon.svg" alt="search-icon" />Пошук
+              </li>
+              <li>
+                <img src="public/images/favorite-icon.svg" alt="favorite-icon" />
+              </li>
+              <li>
+                <img src="public/images/bag-icon.svg" alt="favorite-icon" />
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="header__bottom">
+          <nav className="header__menu">
+            <ul className="header__menu-list-items">
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">Новинки</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">Платья</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">Верх</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">НИз</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">куртки</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">Дрібниці</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">Костюми</a>
+              </li>
+              <li className="header__menu-list-item">
+                <a className="header__menu-link" href="#!">#Boorivagirls</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
