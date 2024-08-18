@@ -1,5 +1,6 @@
 @use "fonts" as *;
 @use "variables" as *;
+@use "media" as *;
 
 html {
   position: relative;
@@ -27,8 +28,20 @@ body {
   font-size: $font-size;
   font-weight: $font-weight;
   line-height: $line-height;
-  color: $green;
-  background-color: $light;
+  color: $black;
+  background-color: $white;
+
+  @include bigscreen {
+    font-size: $font-size-big;
+  }
+
+  @include laptop {
+    font-size: $font-size-laptop;
+  }
+
+  @include mobile {
+    font-size: $font-size-mobile;
+  }
 }
 
 img,
@@ -76,4 +89,17 @@ p {
   max-width: $max-width;
   padding: $padding;
   margin: 0 auto;
+
+  @include bigscreen {
+    max-width: $max-width-big;
+    padding: $padding-big;
+  }
+
+  @include tablet {
+    padding: $padding-laptop;
+  }
+
+  @include mobile {
+    padding: $padding-mobile;
+  }
 }

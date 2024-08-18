@@ -1,12 +1,15 @@
-@use "media" as *;
-
 // Sizes
 $min-width: 320px;
 $max-width: 1404px;
 $padding: 0 52px;
 
+$max-width-big: 1600px;
+$padding-big: 0 60px;
+$padding-laptop: 0 46px;
+$padding-mobile: 0 14px;
+
 // Media
-$bigscreen: 1900px;
+$big: 1900px;
 $laptop: 1100px;
 $tablet: 760px;
 $mobile: 540px;
@@ -25,18 +28,6 @@ $font-size: 24px;
 $font-weight: 400;
 $line-height: 1.4;
 
-@include bigscreen {
-    $max-width: 1600px;
-    $padding: 0 60px;
-    $font-size: 28px;
-}
-
-@include laptop {
-    $padding: 0 46px;
-    $font-size: 20px;
-}
-
-@include mobile {
-    $padding: 0 14px;
-    $font-size: 16px;
-}
+$font-size-big: 28px;
+$font-size-laptop: 20px;
+$font-size-mobile: 16px;
