@@ -1,0 +1,145 @@
+@use "../variables"as *;
+@use "../media"as *;
+
+.cart {
+  max-width       : 676px;
+  width           : 100%;
+  min-height      : 459px;
+  margin          : auto;
+  display         : flex;
+  background-color: #fff;
+  border-radius   : 24px;
+  box-shadow      : 0 0 32px 0 rgba(black, 0.15);
+  overflow        : hidden;
+
+  &::before {
+    content   : '';
+    display   : block;
+    width     : 48%;
+    background: url('/img/cart-bg.jpg') center / cover no-repeat;
+  }
+
+  &__content {
+    width         : 52%;
+    display       : flex;
+    flex-direction: column;
+    padding       : 24px;
+  }
+
+  &__title {
+    font-weight  : 400;
+    color        : $green;
+    margin-bottom: 16px;
+  }
+
+  &__list {
+    flex-grow    : 1;
+    margin-bottom: 20px;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-areas:
+      "image title title"
+      "image count price";
+    grid-template-columns: 54px 1fr max-content;
+    gap                  : 8px 12px;
+    padding              : 12px 0;
+    border-bottom        : 1px solid rgba(#2e3514, 0.04);
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom : none;
+      padding-bottom: 0;
+    }
+
+    &-img {
+      grid-area      : image;
+      width          : 54px;
+      height         : 54px;
+      object-fit     : cover;
+      object-position: center;
+      align-self     : center;
+    }
+
+    &-title {
+      grid-area: title;
+      font-size: 16px;
+      color    : $green;
+    }
+
+    &-count {
+      grid-area      : count;
+      max-width      : 70px;
+      display        : flex;
+      align-items    : center;
+      justify-content: space-between;
+      font-size      : 16px;
+
+      button {
+        width           : 24px;
+        height          : 24px;
+        border          : 1px solid $green;
+        border-radius   : 6px;
+        background-color: $white;
+        color           : inherit;
+      }
+
+      &_count {
+        font-size: 16px;
+        color    : $green;
+      }
+    }
+
+    &-price {
+      grid-area: price;
+      font-size: 16px;
+      color    : $green;
+    }
+  }
+
+  &__fieldset {
+    margin       : 0;
+    padding      : 0;
+    border       : none;
+    margin-bottom: 16px;
+  }
+
+  &__legend {
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size  : 16px;
+  }
+
+  &__label {
+    display  : block;
+    font-size: 16px;
+  }
+
+  &__footer {
+    width          : 100%;
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+  }
+
+  &__order-btn {
+    border-radius   : 40px;
+    padding         : 12px 24px;
+    font-weight     : 700;
+    font-size       : 16px;
+    text-align      : center;
+    color           : $light;
+    background-color: $purple;
+  }
+
+  &__total {
+    font-weight: 700;
+    font-size  : 16px;
+    text-align : center;
+    color      : $purple;
+  }
+}
