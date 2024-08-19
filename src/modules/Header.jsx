@@ -4,12 +4,12 @@ export const Header = () => {
       <div className="container header__container">
         <div className="header__top">
           <div className="header__info-left">
-            <ul className="header__info-list-items">
-              <li className="header__info-list-item">
+            <ul className="header__info-list-items header__info-list-items-left">
+              <li className="header__info-list-item header__info-list-item-location">
                 <img
                   className="header__info-image"
                   src="public/images/location-icon.svg"
-                  alt=""
+                  alt="location-icon"
                 ></img>
                 <p>Київ, Нижній Вал, 37</p>
               </li>
@@ -17,7 +17,7 @@ export const Header = () => {
                 <img
                   className="header__info-image"
                   src="public/images/phone-icon.svg"
-                  alt=""
+                  alt="phone-icon"
                 ></img>
                 <p>+38 063 843 34 71</p>
               </li>
@@ -34,10 +34,10 @@ export const Header = () => {
           </div>
 
           <div className="header__info-right">
-            <ul className="header__info-list-items">
+            <ul className="header__info-list-items header__info-list-items-right">
               <li className="header__info-list-item header__info-list-item-search">
                 <a href="#!">
-                  <svg 
+                  <svg
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -54,9 +54,10 @@ export const Header = () => {
                 </a>
                 <p>Пошук</p>
               </li>
-              <li className="header__info-list-item">
+              <li className="header__info-list-item header__info-list-item-favorite">
                 <a href="#!">
-                  <svg className="header__info-svg"
+                  <svg
+                    className="header__info-svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
@@ -73,9 +74,10 @@ export const Header = () => {
                   </svg>
                 </a>
               </li>
-              <li className="header__info-list-item">
+              <li className="header__info-list-item header__info-list-item-bag">
                 <a href="#!">
-                  <svg className="header__info-svg"
+                  <svg
+                    className="header__info-svg"
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
