@@ -49,6 +49,8 @@ svg {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 svg {
@@ -78,6 +80,7 @@ h2,
 h3,
 p {
   margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {

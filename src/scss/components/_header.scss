@@ -1,11 +1,89 @@
 @use "../media" as *;
+@use "../variables" as *;
 
 .header {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: 0;
   right: 0;
   z-index: 50;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+  }
+  &__info-left {
+    padding-right: 135px;
+  }
+  &__info-list-items {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    p {
+      display: inline-block;
+      font-style: italic;
+      font-weight: 700;
+      font-size: 14px;
+      color: $accent-pink;
+    }
+  }
+
+  &__info-image {
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+  }
+
+  &__logo {
+    width: 160px;
+    height: 40px;
+  }
+  &__info-list-item {
+    a {
+      transition: all 0.2s ease-in;
+    }
+  }
+
+  &__info-list-item-search {
+    padding-right: 110px;
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    p {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 14px;
+      color: $black;
+      padding-left: 10px;
+    }
+  }
+  &__menu-list-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+  }
+  &__info-svg {
+    display: inline-block;
+    padding-top: 4px;
+    :hover {
+      fill: $accent-pink;
+    }
+  }
+  &__menu-list-item {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $black;
+    a {
+      transition: all 0.2s ease-in;
+    }
+    a:hover {
+      color: $accent-pink;
+    }
+  }
 
   @include laptop {
     top: 40px;

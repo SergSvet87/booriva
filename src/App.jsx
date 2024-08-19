@@ -1,9 +1,15 @@
-// import { useState } from "react";
+// import Header from "./modules/Header";
+
+import { Header } from "./modules/Header";
 
 function App() {
   return (
     <>
-      <h1>Hello world!!</h1>
+      <Header />
+
+      {/* <Main /> */}
+
+      {/* <Footer /> */}
     </>
   );
 }
