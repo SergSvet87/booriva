@@ -11,7 +11,7 @@ export const Header = () => {
                   src="public/images/location-icon.svg"
                   alt="location-icon"
                 ></img>
-                <p>Київ, Нижній Вал, 37</p>
+                <p>Киев, Нижний вал, 37</p>
               </li>
               <li className="header__info-list-item">
                 <img
@@ -52,7 +52,7 @@ export const Header = () => {
                     />
                   </svg>
                 </a>
-                <p>Пошук</p>
+                <p>Поиск</p>
               </li>
               <li className="header__info-list-item header__info-list-item-favorite">
                 <a href="#!">
@@ -135,12 +135,12 @@ export const Header = () => {
               </li>
               <li className="header__menu-list-item">
                 <a className="header__menu-link" href="#!">
-                  Дрібниці
+                  Мелочи
                 </a>
               </li>
               <li className="header__menu-list-item">
                 <a className="header__menu-link" href="#!">
-                  Костюми
+                  Костюмы
                 </a>
               </li>
               <li className="header__menu-list-item">

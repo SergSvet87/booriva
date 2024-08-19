@@ -23,14 +23,4 @@
   &__col-bottom-one {
     padding-top: 15px;
   }
-
-    @include bigscreen  {
-      
-    }
-
-    @include mobile {
-      &__col-top  {
-        grid-template-columns: 100%;
-      }
-    }
 }
