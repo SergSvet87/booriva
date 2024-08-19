@@ -1,6 +1,4 @@
-// import React from "react";
-
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="footer">
       <div className="container footer__container">
@@ -59,7 +57,7 @@ const Footer = () => {
             <li className="footer__address-item footer__address-item_time">Ежедневно: 
             с 11:00 до 21:00</li>
 
-            <li className="footer__address-item">
+            <li className="footer__address-item  footer__address-item_tel">
                 <a href="tel:+380638433471">+38 063 843 34 71</a>
             </li>
           </ul>
@@ -98,5 +96,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

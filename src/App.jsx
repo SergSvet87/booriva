@@ -1,22 +1,20 @@
-// import Header from "./modules/Header";
-
 import { Header } from "./modules/Header";
-
-import Footer from "./Footer/Footer";
+import { Footer } from "./modules/Footer";
 
 function App() {
   return (
-    <>
-      
+    <div className="wrapper">
       <Header />
 
       {/* <Main /> */}
-    <h1>Hello world!!</h1>
-
+      <main className="page" style={{ marginTop: "150px" }}>
+        <div className="container">
+          <h1>Hello world!!</h1>
+        </div>
+      </main>
 
       <Footer />
-
-    </>
+    </div>
   );
 }
 

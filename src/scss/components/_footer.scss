@@ -44,6 +44,8 @@
   }
 
   &__logo {
+    width: 100px;
+
     @include tablet {
       display: none;
     }
@@ -59,7 +61,6 @@
   }
 
   &__info {
-
     @include mobile {
       grid-area: info;
     }
@@ -93,7 +94,7 @@
     }
 
     @include mobile {
-      width: 90px;
+      width: 100%;
       grid-area: contacts;
     }
 
@@ -121,6 +122,14 @@
       }
 
       &_time {
+        display: none;
+
+        @include tablet {
+          display: block;
+        }
+      }
+
+      &_tel {
         display: none;
 
         @include tablet {
