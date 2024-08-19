@@ -43,7 +43,7 @@
   }
 
   &__info-list-item-search {
-    padding-right: 100px;
+    padding-right: 145px;
     svg {
       display: inline-block;
       vertical-align: middle;
@@ -98,9 +98,6 @@
     &__info-list-item-search {
       padding-right: 0;
     }
-  }
-
-  @include tablet {
   }
 
   @include mobile {

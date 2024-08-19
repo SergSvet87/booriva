@@ -1,0 +1,28 @@
+@use "../variables" as *;
+@use "../media" as *;
+
+.services {
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__col {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    width: 311px;
+  }
+  &__col-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__col-text {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
