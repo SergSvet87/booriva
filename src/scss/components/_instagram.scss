@@ -1,2 +1,44 @@
 @use "../variables" as *;
 @use "../media" as *;
+
+.instagram {
+  &__wrap {
+    display: flex;
+    gap: 6px;
+  }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(34.333% - 10px);
+  }
+  &__col-title {
+    font-weight: 400;
+    font-size: 16px;
+    width: 349px;
+    img {
+      margin-bottom: 10px;
+    }
+  }
+  &__col-image {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    img {
+      min-width: 210px;
+      min-height: 210px;
+      @include bigscreen {
+        min-width: 240px;
+        min-height: 240px;
+      }
+    }
+  }
+  &__col-right {
+    justify-content: space-between;
+  }
+  &__col-title-hashtag {
+    font-weight: 600;
+    font-size: 42px;
+    color: $accent-red;
+  }
+}
