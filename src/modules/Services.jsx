@@ -7,7 +7,9 @@ export const Services = () => {
             <img src="public/images/sending-icon.svg" />
             <div className="services__col-body">
               <h3 className="services__col-title">Отправка день в день</h3>
-              <p className="services__col-text">При заказе до 1800</p>
+              <p className="services__col-text">
+                При заказе до 18<sup>00</sup>
+              </p>
             </div>
           </div>
           <div className="services__col">
