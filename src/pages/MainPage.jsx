@@ -1,9 +1,12 @@
 import { Hero } from "../modules/Hero";
+import { Store } from "../modules/Store";
 
 export function MainPage() {
   return (
-    <div className="container">
+    <>
       <Hero />
-    </div>
+
+      <Store />
+    </>
   );
 }
