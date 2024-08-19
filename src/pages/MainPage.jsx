@@ -6,6 +6,7 @@ import { Instagram } from "../modules/Instagram";
 import { Services } from "../modules/Services";
 import { StoreMag } from "../modules/StoreMag";
 import { TopProduct } from "../modules/TopProduct";
+import { Store } from "../modules/Store";
 
 export function MainPage() {
   return (
@@ -18,6 +19,8 @@ export function MainPage() {
       <Costumes />
       <Services />
       <Instagram />
+
+      <Store />
     </>
   );
 }

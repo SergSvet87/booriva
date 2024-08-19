@@ -1,18 +1,23 @@
 // Sizes
 $min-width: 320px;
-$max-width: 1404px;
-$padding: 0 52px;
+$max-width: 1440px;
+$padding: 0 150px;
 
-$max-width-big: 1600px;
-$padding-big: 0 60px;
-$padding-laptop: 0 18px;
-$padding-mobile: 0 14px;
+$max-width-big: 1800px;
+$max-width-laptop: 1000px;
+$max-width-tablet: 768px;
+$padding-big: 0 100px;
+$padding-laptop: 0 50px;
+$padding-tablet: 0 15px;
+$padding-minitablet: 0 14px;
+$padding-mobile: 0 8px;
 
 // Media
 $big: 1900px;
-$laptop: 1000px;
-$tablet: 768px;
-$mobile: 550px;
+$laptop: 1240px;
+$tablet: 968px;
+$minitablet: 720px;
+$mobile: 480px;
 
 // Colors
 $accent-pink: #fda3c4;
