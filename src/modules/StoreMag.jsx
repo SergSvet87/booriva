@@ -1,4 +1,4 @@
-export const Store = () => {
+export const StoreMag = () => {
   return (
     <section className="store">
       <div className="container">
