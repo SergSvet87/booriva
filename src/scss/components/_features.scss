@@ -43,7 +43,6 @@
     justify-content: center;
   }
 }
-
 .card {
   position: relative;
   &__fav-btn {
@@ -66,7 +65,7 @@
     border-top: 1px solid $accent-pink;
     padding: 27px 20px;
     @include laptop {
-        padding: 27px 10px;
+      padding: 27px 10px;
     }
   }
   &__cols {
