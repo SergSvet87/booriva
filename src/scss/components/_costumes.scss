@@ -42,7 +42,8 @@
     justify-content: center;
   }
 }
-.card {
+.card_costumes {
+  width: 354.5px !important;
   position: relative;
   &__price-old {
     position: absolute;
@@ -54,7 +55,7 @@
     bottom: 130px;
     right: 80px;
   }
-  &__picture {
+  &__pictures {
     max-width: 355px;
     @include laptop {
       max-width: 255px;

@@ -52,7 +52,7 @@ export const Header = () => {
                     />
                   </svg>
                 </a>
-                <p>Поиск</p>
+                <input type="text" placeholder="Поиск" />
               </li>
               <li className="header__info-list-item header__info-list-item-favorite">
                 <a href="#!">
