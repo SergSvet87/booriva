@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export const Hero = () => {
   return (
     <section className="hero">
@@ -5,9 +7,9 @@ export const Hero = () => {
         <div className="hero__cols">
           <div className="hero__col">
             <div className="hero__col-top-one">
-              <a className="hero__col-link" href="#!">
+              <NavLink className="hero__col-link" to={`/&product=bomb`}>
                 <img src="public/images/1@2x.jpg" alt="Футболки" />
-              </a>
+              </NavLink>
             </div>
             <div className="hero__col-bottom">
               <div className="hero__col-left">

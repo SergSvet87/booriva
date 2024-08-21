@@ -6,6 +6,8 @@ import { App } from "./App";
 import { ErrorPage } from "./pages/error/ErrorPage";
 import { NotFoundPage } from "./pages/not-found/NotFoundPage";
 import { MainPage } from "./pages/MainPage";
+import { ProductPage } from "./pages/ProductPage";
+import { ProductsPage } from "./pages/ProductsPage";
 
 export const router = createBrowserRouter([
   {
@@ -25,14 +27,14 @@ export const router = createBrowserRouter([
       //   path: PATHS.team,
       //   element: <TeamPage />,
       // },
-      // {
-      //   path: PATHS.movieId(),
-      //   element: <ProductsPage />,
-      // },
-      // {
-      //   path: PATHS.genre(),
-      //   element: <ProductPage />,
-      // },
+      {
+        path: PATHS.productName,
+        element: <ProductPage />,
+      },
+      {
+        path: PATHS.category(),
+        element: <ProductsPage />,
+      },
       // {
       //   path: PATHS.search(),
       //   element: <SearchNamePage />,
