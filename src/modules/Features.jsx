@@ -31,7 +31,7 @@ export const Features = () => {
         autoplay={true}
         className="features__cards"
       >
-        <SwiperSlide className="card_features_features">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
