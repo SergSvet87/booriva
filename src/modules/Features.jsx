@@ -31,8 +31,8 @@ export const Features = () => {
         autoplay={true}
         className="features__cards"
       >
-        <SwiperSlide className="card">
-          <div className="card__fav-btn">
+        <SwiperSlide className="card_features_features">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -48,22 +48,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-1.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Cвитшот вставка клетка</h3>
-              <div className="card__price">1 099 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              <div className="card_features__price">1 099 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -79,24 +79,24 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-2.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">
                 Платье прозрачное в цветочек черное
               </h3>
-              <div className="card__price">1 299 ₴</div>
+              <div className="card_features__price">1 299 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -112,22 +112,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-3.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Бомбер Gone Crazy хаки</h3>
-              <div className="card__price">2 499 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              <div className="card_features__price">2 499 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -143,22 +143,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-4.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Платье-футболка рыбы в аквариуме</h3>
-              <div className="card__price">899 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Платье-футболка рыбы в аквариуме</h3>
+              <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -174,22 +174,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-1.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Cвитшот вставка клетка</h3>
-              <div className="card__price">1 099 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              <div className="card_features__price">1 099 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -205,24 +205,24 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-2.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">
                 Платье прозрачное в цветочек черное
               </h3>
-              <div className="card__price">1 299 ₴</div>
+              <div className="card_features__price">1 299 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -238,22 +238,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-3.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Бомбер Gone Crazy хаки</h3>
-              <div className="card__price">2 499 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              <div className="card_features__price">2 499 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -269,22 +269,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-4.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Платье-футболка рыбы в аквариуме</h3>
-              <div className="card__price">899 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Платье-футболка рыбы в аквариуме</h3>
+              <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -300,22 +300,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-1.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Cвитшот вставка клетка</h3>
-              <div className="card__price">1 099 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              <div className="card_features__price">1 099 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -331,24 +331,24 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-2.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">
                 Платье прозрачное в цветочек черное
               </h3>
-              <div className="card__price">1 299 ₴</div>
+              <div className="card_features__price">1 299 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -364,22 +364,22 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-3.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Бомбер Gone Crazy хаки</h3>
-              <div className="card__price">2 499 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              <div className="card_features__price">2 499 ₴</div>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className="card">
-          <div className="card__fav-btn">
+          <div className="card_features__fav-btn">
             <button>
               <svg
                 width="26"
@@ -395,17 +395,17 @@ export const Features = () => {
               </svg>
             </button>
           </div>
-          <div className="card__picture">
+          <div className="card_features__picture">
             <img
-              className="card__img"
+              className="card_features__img"
               src="public/images/new-4.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
-          <div className="card__body">
-            <div className="card__cols">
-              <h3 className="card__title">Платье-футболка рыбы в аквариуме</h3>
-              <div className="card__price">899 ₴</div>
+          <div className="card_features__body">
+            <div className="card_features__cols">
+              <h3 className="card_features__title">Платье-футболка рыбы в аквариуме</h3>
+              <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
