@@ -1,0 +1,26 @@
+@use "../variables" as *;
+@use "../media" as *;
+
+.breadcrumbs {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    a {
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: $accent-pink;
+        }
+    }
+
+    span:last-child {
+        color: $accent-pink;
+    }
+}
