@@ -114,8 +114,18 @@ section {
     padding: $padding-big;
   }
 
-  @include tablet {
+  @include laptop {
+    max-width: $max-width-laptop;
     padding: $padding-laptop;
+  }
+
+  @include tablet {
+    max-width: $max-width-tablet;
+    padding: $padding-tablet;
+  }
+
+  @include minitablet {
+    padding: $padding-minitablet;
   }
 
   @include mobile {

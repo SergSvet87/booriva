@@ -3,6 +3,7 @@ export const PATHS = {
     // about: '/about',
     // team: '/team',
     category: (category) => (category ? `&category=${category}` : '&category=:category'),
-    productId: (name = null) => (name ? `/&product=${name}` : '/&product=:name'),
+    subcategory: (category) => (category ? `&subcategory=${category}` : '&subcategory=:category'),
+    productName: '/&product=bomb',
     search: (productName) => (productName ? `&product=${productName}` : '&product=:productName'),
   };

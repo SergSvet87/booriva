@@ -3,10 +3,15 @@
 @use "components/hero";
 @use "components/features";
 @use "components/collection";
-@use "components/storeMag";
 @use "components/topProduct";
 @use "components/costumes";
 @use "components/services";
 @use "components/instagram";
+@use "components/store";
 @use "components/footer";
+
+
+@use "components/breadcrumbs";
+@use "components/card";
+
 // @use "components/cart";

@@ -53,7 +53,7 @@
 
   &__title {
     text-transform: uppercase;
-    font-family: $third-family;
+    font-family: $second-family;
     font-weight: 400;
     font-size: 12px;
     color: $accent-red;
@@ -72,6 +72,14 @@
 
       @include tablet {
         margin-bottom: 9px;
+      }
+    }
+
+    &-link {
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: $accent-red;
       }
     }
 
@@ -159,6 +167,7 @@
 
     @include mobile {
       grid-area: feedback;
+      justify-content: center;
     }
 
     &-text {
@@ -167,8 +176,15 @@
     }
 
     &-link {
-      text-decoration: underline;
+      padding-bottom: 2px;
       margin-bottom: 0;
+      border-bottom: 1px solid $accent-red;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        color: $white;
+        border-bottom: 1px solid $white;
+      }
     }
   }
 }
