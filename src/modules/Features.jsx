@@ -62,7 +62,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -95,7 +95,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -126,7 +126,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -152,12 +152,14 @@ export const Features = () => {
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Платье-футболка рыбы в аквариуме</h3>
+              <h3 className="card_features__title">
+                Платье-футболка рыбы в аквариуме
+              </h3>
               <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -188,7 +190,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -221,7 +223,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -252,7 +254,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -278,12 +280,14 @@ export const Features = () => {
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Платье-футболка рыбы в аквариуме</h3>
+              <h3 className="card_features__title">
+                Платье-футболка рыбы в аквариуме
+              </h3>
               <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -314,7 +318,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -347,7 +351,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -378,7 +382,7 @@ export const Features = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="card">
+        <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
               <svg
@@ -404,7 +408,9 @@ export const Features = () => {
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Платье-футболка рыбы в аквариуме</h3>
+              <h3 className="card_features__title">
+                Платье-футболка рыбы в аквариуме
+              </h3>
               <div className="card_features__price">899 ₴</div>
             </div>
           </div>
