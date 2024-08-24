@@ -43,7 +43,7 @@
     justify-content: center;
   }
 }
-.card {
+.card_features {
   position: relative;
   &__fav-btn {
     position: absolute;
@@ -56,11 +56,13 @@
   }
   &__picture {
     max-width: 355px;
+    img {
+      height: 440px;
+    }
     @include laptop {
       max-width: 255px;
     }
   }
-
   &__body {
     border-top: 1px solid $accent-pink;
     padding: 27px 20px;

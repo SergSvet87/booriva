@@ -15,12 +15,12 @@ export function MainPage() {
       <Features />
       <Collection />
       {/* <StoreMag /> */}
+      <Store />
       <TopProduct />
       <Costumes />
       <Services />
       <Instagram />
 
-      <Store />
     </>
   );
 }
