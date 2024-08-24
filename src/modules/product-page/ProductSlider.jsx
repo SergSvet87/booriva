@@ -34,7 +34,7 @@ export const ProductSlider = ({ images }) => {
 
       <img
           className="card__img"
-          src="public/images/new-3.jpg"
+          src="/images/new-3.jpg"
           alt="Cвитшот вставка клетка"
         />
     </div>

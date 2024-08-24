@@ -61,6 +61,12 @@
   }
 
   &__info {
+    width: 130px;
+
+    // @include minitblet {
+    //   width: 100px;
+    // }
+
     @include mobile {
       grid-area: info;
     }

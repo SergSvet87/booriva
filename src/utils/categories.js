@@ -1,41 +1,49 @@
 export const categories = [
   {
     id: 1,
-    name: "Новинки",
+    name: "новинки",
+    isActive: false,
   },
 
   {
     id: 2,
-    title: "Платья",
+    name: "платья",
+    isActive: false,
   },
 
   {
     id: 3,
-    title: "Верх",
+    name: "верх",
+    isActive: true,
   },
 
   {
     id: 4,
-    title: "НИз",
+    name: "низ",
+    isActive: false,
   },
 
   {
     id: 5,
-    title: "куртки",
+    name: "куртки",
+    isActive: false,
   },
 
   {
     id: 6,
-    title: "Мелочи",
+    name: "мелочи",
+    isActive: false,
   },
 
   {
     id: 7,
-    title: "Костюмы",
+    name: "костюмы",
+    isActive: false,
   },
 
   {
     id: 8,
-    title: "#Boorivagirls",
+    name: "#boorivagirls",
+    isActive: false,
   },
 ];

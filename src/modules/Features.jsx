@@ -42,7 +42,7 @@ export const Features = () => {
             <div className="card__picture">
               <img
                 className="card__img"
-                src="public/images/new-1.jpg"
+                src="/images/new-1.jpg"
                 alt="Cвитшот вставка клетка"
               />
             </div>
@@ -73,7 +73,7 @@ export const Features = () => {
             <div className="card__picture">
               <img
                 className="card__img"
-                src="public/images/new-2.jpg"
+                src="/images/new-2.jpg"
                 alt="Cвитшот вставка клетка"
               />
             </div>
@@ -106,7 +106,7 @@ export const Features = () => {
             <div className="card__picture">
               <img
                 className="card__img"
-                src="public/images/new-3.jpg"
+                src="/images/new-3.jpg"
                 alt="Cвитшот вставка клетка"
               />
             </div>
@@ -137,7 +137,7 @@ export const Features = () => {
             <div className="card__picture">
               <img
                 className="card__img"
-                src="public/images/new-4.jpg"
+                src="/images/new-4.jpg"
                 alt="Cвитшот вставка клетка"
               />
             </div>
@@ -154,7 +154,7 @@ export const Features = () => {
       </div>
       <div className="features__link">
         <a href="#!">
-          <img src="public/images/features-button.png" alt="Cмотреть все" />
+          <img src="/images/features-button.png" alt="Cмотреть все" />
         </a>
       </div>
     </section>

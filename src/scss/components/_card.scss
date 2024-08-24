@@ -23,6 +23,7 @@
   &__img {
     width: 400px;
     height: 610px;
+    object-fit: cover;
   }
 
   &__fav-btn {
@@ -133,7 +134,7 @@
       transition: all 0.3s ease-in-out;
 
       &_cart {
-        background-image: url("/public/images/button.svg");
+        background-image: url("/images/button.svg");
         background-position: top left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -147,7 +148,7 @@
 
       &_order {
         height: 55px;
-        background-image: url("/public/images/button-transparent.svg");
+        background-image: url("/images/button-transparent.svg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain;
