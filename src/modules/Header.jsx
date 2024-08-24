@@ -107,43 +107,63 @@ export const Header = () => {
 
         <div className="header__bottom">
           <nav className="header__menu">
-            <ul className="header__menu-list-items">
-              <li className="header__menu-list-item">
+            <ul className="header__menu-items">
+              <li className="header__menu-item">
                 <a className="header__menu-link" href="#!">
                   Новинки
                 </a>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item">
                 <a className="header__menu-link" href="#!">
                   Платья
                 </a>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item header__menu-item-has-children">
                 <a className="header__menu-link" href="#!">
                   Верх
                 </a>
+                <ul className="sub-menu">
+                  <li><a href="#!">Комбинезоны</a></li>
+                  <li><a href="#!">Пиджаки</a></li>
+                  <li><a href="#!">Рубашки</a></li>
+                  <li><a href="#!">Свитшоты</a></li>
+                  <li><a href="#!">Худи</a></li>
+                  <li><a href="#!">Топы</a></li>
+                  <li><a href="#!">Футболки</a></li>
+                </ul>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item header__menu-item-has-children">
                 <a className="header__menu-link" href="#!">
                   НИз
                 </a>
+                <ul className="sub-menu">
+                  <li><a href="#!">Все товары</a> </li>
+                  <li><a href="#!">брюки</a></li>
+                  <li><a href="#!">велосипедки</a></li>
+                  <li><a href="#!">джинсы</a></li>
+                  <li><a href="#!">штаны</a></li>
+                  <li><a href="#!">шорты</a></li>
+                  <li><a href="#!">юбки</a></li>
+                </ul>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item header__menu-item-has-children">
                 <a className="header__menu-link" href="#!">
                   куртки
                 </a>
+                <ul className="sub-menu"></ul>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item header__menu-item-has-children">
                 <a className="header__menu-link" href="#!">
                   Мелочи
                 </a>
+                <ul className="sub-menu"></ul>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item">
                 <a className="header__menu-link" href="#!">
                   Костюмы
                 </a>
               </li>
-              <li className="header__menu-list-item">
+              <li className="header__menu-item">
                 <a className="header__menu-link" href="#!">
                   #Boorivagirls
                 </a>

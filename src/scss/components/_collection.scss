@@ -1,10 +1,9 @@
 @use "../variables" as *;
 @use "../media" as *;
 
-
 .collection {
-    img {
-        height: 512px;
-        margin: 0 auto;
-    }
+  img {
+    height: auto;
+    margin: 0 auto;
+  }
 }
