@@ -6,7 +6,6 @@ import { router } from "./router.jsx";
 
 import "normalize.css";
 import 'swiper/css';
-import 'swiper/css/pagination';
 import "./scss/index.scss";
 
 createRoot(document.getElementById("root")).render(

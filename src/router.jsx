@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
 import { PATHS } from "./const";
 import { App } from "./App";
@@ -9,7 +9,7 @@ import { MainPage } from "./pages/MainPage";
 import { ProductPage } from "./pages/ProductPage";
 import { ProductsPage } from "./pages/ProductsPage";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: PATHS.main,
     element: <App />,
@@ -32,7 +32,20 @@ export const router = createBrowserRouter([
         element: <ProductPage />,
       },
       {
+        path: PATHS.store,
+        element: <ProductsPage />,
+      },
+      {
+        path: PATHS.productname(),
+        element: <ProductPage />,
+      },
+      {
         path: PATHS.category(),
+        element: <ProductsPage />,
+      },
+
+      {
+        path: PATHS.subcategory(),
         element: <ProductsPage />,
       },
       // {
