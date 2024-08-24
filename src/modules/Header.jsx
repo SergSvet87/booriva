@@ -121,7 +121,7 @@ export const Header = () => {
                         ? "header__menu-link header__menu-link_active"
                         : "header__menu-link"
                     }
-                    to={PATHS.category(category.name)}
+                    to={PATHS.category(category.nameEn)}
                   >
                     {category.name}
                   </NavLink>

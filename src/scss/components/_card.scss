@@ -233,6 +233,15 @@
   width: 100%;
   display: flex;
   gap: 15px;
+
+  &__image {
+    height: 610px;
+  }
+
+  &__img {
+    width: 400px;
+    height: 610px;
+  }
 }
 
 .product-swiper {
