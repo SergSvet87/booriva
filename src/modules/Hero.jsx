@@ -8,18 +8,18 @@ export const Hero = () => {
           <div className="hero__col">
             <div className="hero__col-top-one">
               <NavLink className="hero__col-link" to={`/&product=bomb`}>
-                <img src="public/images/1@2x.jpg" alt="Футболки" />
+                <img src="/images/1@2x.jpg" alt="Футболки" />
               </NavLink>
             </div>
             <div className="hero__col-bottom">
               <div className="hero__col-left">
                 <a className="hero__col-link" href="#!">
-                  <img src="public/images/2@2x.jpg" alt="Низ" />
+                  <img src="/images/2@2x.jpg" alt="Низ" />
                 </a>
               </div>
               <div className="hero__col-right">
                 <a className="hero__col-link" href="#!">
-                  <img src="public/images/3@2x.jpg" alt="верх" />
+                  <img src="/images/3@2x.jpg" alt="верх" />
                 </a>
               </div>
             </div>
@@ -28,18 +28,18 @@ export const Hero = () => {
             <div className="hero__col-top">
               <div className="hero__col-left">
                 <a className="hero__col-link" href="#!">
-                  <img src="public/images/4@2x.jpg" alt="Платья" />
+                  <img src="/images/4@2x.jpg" alt="Платья" />
                 </a>
               </div>
               <div className="hero__col-right">
                 <a className="hero__col-link" href="#!">
-                  <img src="public/images/5@2x.jpg" alt="костюмы" />
+                  <img src="/images/5@2x.jpg" alt="костюмы" />
                 </a>
               </div>
             </div>
             <div className="hero__col-bottom-one">
               <a className="hero__col-link" href="#!">
-                <img src="public/images/6@2x.jpg" alt="Худи" />
+                <img src="/images/6@2x.jpg" alt="Худи" />
               </a>
             </div>
           </div>

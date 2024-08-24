@@ -10,7 +10,7 @@ export const StoreMag = () => {
             </div>
           </div>
           <div className="store__col-image">
-            <img src="public/images/store.jpg" alt="Store Image" />
+            <img src="/images/store.jpg" alt="Store Image" />
           </div>
           <div className="store__col-text">
             <p>
@@ -18,13 +18,13 @@ export const StoreMag = () => {
               заглянуть, гуляя по Подолу, и примерять что-то из в наличии
             </p>
             <div className="store__col-map">
-              <img src="public/images/map-image.jpg" alt="Map Image" />
+              <img src="/images/map-image.jpg" alt="Map Image" />
             </div>
           </div>
         </div>
         <div className="store__link">
           <a href="#!">
-            <img src="public/images/store-button.png" alt="Cмотреть все" />
+            <img src="/images/store-button.png" alt="Cмотреть все" />
           </a>
         </div>
       </div>

@@ -412,7 +412,7 @@ export const Features = () => {
       </Swiper>
       <div className="features__link">
         <a href="#!">
-          <img src="public/images/features-button.png" alt="Cмотреть все" />
+          <img src="/images/features-button.png" alt="Cмотреть все" />
         </a>
       </div>
     </section>

@@ -8,10 +8,6 @@ export const Card = ({ data }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [addToCart, setAddToCart] = useState([]);
 
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
   const closeModal = () => {
     setModalIsOpen(false);
   };
@@ -74,7 +70,7 @@ export const Card = ({ data }) => {
               </button>
               <button
                 className="card__buttons-btn card__buttons-btn_order"
-                onClick={openModal}
+                onClick={() => setModalIsOpen(true)}
               >
                 Быстрый заказ
               </button>
@@ -91,7 +87,7 @@ export const Card = ({ data }) => {
                 <p className="card__params-text">(На модели XS — S-ка)</p>
                 <img
                   className="card__params-img"
-                  src="/public/images/model.svg"
+                  src="/images/model.svg"
                   alt="Параметры модели с объемами"
                 />
               </div>

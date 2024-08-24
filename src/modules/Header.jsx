@@ -1,3 +1,8 @@
+import { NavLink } from "react-router-dom";
+
+import { categories } from "../utils/categories";
+import { PATHS } from "../const";
+
 export const Header = () => {
   return (
     <header className="header">
@@ -8,7 +13,7 @@ export const Header = () => {
               <li className="header__info-list-item header__info-list-item-location">
                 <img
                   className="header__info-image"
-                  src="public/images/location-icon.svg"
+                  src="/images/location-icon.svg"
                   alt="location-icon"
                 ></img>
                 <p>Киев, Нижний вал, 37</p>
@@ -16,7 +21,7 @@ export const Header = () => {
               <li className="header__info-list-item">
                 <img
                   className="header__info-image"
-                  src="public/images/phone-icon.svg"
+                  src="/images/phone-icon.svg"
                   alt="phone-icon"
                 ></img>
                 <p>+38 063 843 34 71</p>
@@ -27,7 +32,7 @@ export const Header = () => {
             <a className="header__logo-link" href="/">
               <img
                 className="header__logo-image"
-                src="public/images/logo.svg"
+                src="/images/logo.svg"
                 alt="logo"
               />
             </a>
@@ -108,46 +113,20 @@ export const Header = () => {
         <div className="header__bottom">
           <nav className="header__menu">
             <ul className="header__menu-list-items">
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  Новинки
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  Платья
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  Верх
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  НИз
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  куртки
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  Мелочи
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  Костюмы
-                </a>
-              </li>
-              <li className="header__menu-list-item">
-                <a className="header__menu-link" href="#!">
-                  #Boorivagirls
-                </a>
-              </li>
+              {categories.map((category) => (
+                <li className="header__menu-list-item" key={category.id}>
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive
+                        ? "header__menu-link header__menu-link_active"
+                        : "header__menu-link"
+                    }
+                    to={PATHS.category(category.name)}
+                  >
+                    {category.name}
+                  </NavLink>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>
