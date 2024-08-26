@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import { categories } from "../utils/categories";
 import { PATHS } from "../const";
@@ -29,19 +29,19 @@ export const Header = () => {
             </ul>
           </div>
           <div className="header__logo">
-            <a className="header__logo-link" href="/">
+            <Link className="header__logo-link" to={PATHS.main}>
               <img
                 className="header__logo-image"
                 src="/images/logo.svg"
                 alt="logo"
               />
-            </a>
+            </Link>
           </div>
 
           <div className="header__info-right">
             <ul className="header__info-list-items header__info-list-items-right">
               <li className="header__info-list-item header__info-list-item-search">
-                <a href="#!">
+                <Link to={PATHS.search}>
                   <svg
                     width="24"
                     height="24"
@@ -56,11 +56,11 @@ export const Header = () => {
                       fill="#1F1F1F"
                     />
                   </svg>
-                </a>
+                </Link>
                 <input type="text" placeholder="Поиск" />
               </li>
               <li className="header__info-list-item header__info-list-item-favorite">
-                <a href="#!">
+                <Link to={PATHS.wishlist}>
                   <svg
                     className="header__info-svg"
                     width="24"
@@ -77,10 +77,10 @@ export const Header = () => {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
               <li className="header__info-list-item header__info-list-item-bag">
-                <a href="#!">
+                <Link to={PATHS.cart}>
                   <svg
                     className="header__info-svg"
                     width="24"
@@ -104,7 +104,7 @@ export const Header = () => {
                       strokeLinejoin="round"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -112,18 +112,27 @@ export const Header = () => {
 
         <div className="header__bottom">
           <nav className="header__menu">
-            <ul className="header__menu-list-items">
+            <ul className="header__menu-items">
               {categories.map((category) => (
-                <li className="header__menu-list-item" key={category.id}>
+                <li className="header__menu-item" key={category.id}>
                   <NavLink
                     className={({ isActive }) =>
                       isActive
                         ? "header__menu-link header__menu-link_active"
                         : "header__menu-link"
                     }
-                    to={PATHS.category(category.nameEn)}
+                    to={`/products&category/${category.nameEn}`}
                   >
                     {category.name}
+                    {category.subCategories ? (
+                      <ul className="sub-menu">
+                        {category.subCategories.map((subcategory) => (
+                          <li key={subcategory.id}>
+                            <Link to={`/products&category/${category.nameEn}&subcategory/${subcategory.name}`}>{subcategory.name}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
                   </NavLink>
                 </li>
               ))}

@@ -1,16 +1,16 @@
 /* eslint-disable react/prop-types */
 // import React from 'react'
-import Modal from "react-modal";
-import { Link } from "react-router-dom";
+import Modal from 'react-modal';
+import { Link } from 'react-router-dom';
 
-import { iframe } from "../utils/iframe";
+import { iframe } from '../../utils/iframe';
 
-Modal.setAppElement("#root");
+Modal.setAppElement('#root');
 
 const Iframe = (props) => {
   return (
     <div
-      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : '' }}
     />
   );
 };

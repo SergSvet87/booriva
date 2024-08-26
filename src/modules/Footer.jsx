@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Footer = () => {
   return (
     <footer className="footer">
@@ -11,37 +13,37 @@ export const Footer = () => {
 
           <ul className="footer__info-list">
             <li className="footer__info-item">
-              <a href="#" className="footer__info-link">
+              <Link to="#" className="footer__info-link">
                 Контакты
-              </a>
+              </Link>
             </li>
             <li className="footer__info-item">
-              <a href="#" className="footer__info-link">
+              <Link to="#" className="footer__info-link">
                 Система лояльности
-              </a>
+              </Link>
             </li>
             <li className="footer__info-item">
-              <a href="#" className="footer__info-link">
+              <Link to="#" className="footer__info-link">
                 Обмен и возврат
-              </a>
+              </Link>
             </li>
             <li className="footer__info-item">
-              <a href="#" className="footer__info-link">
+              <Link to="#" className="footer__info-link">
                 Доставка и оплата
-              </a>
+              </Link>
             </li>
           </ul>
 
           <ul className="footer__info-socials">
             <li className="footer__info-socials-item">
-              <a href="#" className="footer__info-socials-link">
+              <Link to="#" className="footer__info-socials-link">
                 <img src="/images/instagram-icon.svg" alt="Instagram Icon" />
-              </a>
+              </Link>
             </li>
             <li className="footer__info-socials-item">
-              <a href="#" className="footer__info-socials-link">
+              <Link to="#" className="footer__info-socials-link">
                 <img src="/images/facebook-icon.svg" alt="Facebook Icon" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -58,7 +60,7 @@ export const Footer = () => {
             с 11:00 до 21:00</li>
 
             <li className="footer__address-item  footer__address-item_tel">
-                <a href="tel:+380638433471">+38 063 843 34 71</a>
+                <Link to="tel:+380638433471">+38 063 843 34 71</Link>
             </li>
           </ul>
         </div>
@@ -68,14 +70,14 @@ export const Footer = () => {
 
           <ul className="footer__socials-list">
             <li className="footer__socials-item">
-              <a href="#" className="footer__socials-link">
+              <Link to="#" className="footer__socials-link">
                 <img src="/images/instagram-icon.svg" alt="Instagram Icon" />
-              </a>
+              </Link>
             </li>
             <li className="footer__socials-item">
-              <a href="#" className="footer__socials-link">
+              <Link to="#" className="footer__socials-link">
                 <img src="/images/facebook-icon.svg" alt="Facebook Icon" />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -87,9 +89,9 @@ export const Footer = () => {
             <p className="footer__feedback-text">
               Нам важно знать, что ты думаешь про нас! Просто напиши мне!
             </p>
-            <a href="#" className="footer__title footer__feedback-link">
+            <Link to="#" className="footer__title footer__feedback-link">
               Написать Иванке
-            </a>
+            </Link>
           </div>
         </div>
       </div>

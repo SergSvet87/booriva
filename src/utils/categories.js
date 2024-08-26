@@ -68,6 +68,43 @@ export const categories = [
     name: "низ",
     nameEn: "bottom",
     isActive: false,
+    subCategories: [
+      {
+        id: 1,
+        name: "брюки",
+        nameEn: "bombers",
+      },
+    
+      {
+        id: 2,
+        name: "велосипедки",
+        nameEn: "overalls",
+      },
+    
+      {
+        id: 3,
+        name: "джинсы",
+        nameEn: "jackets",
+      },
+    
+      {
+        id: 4,
+        name: "штаны",
+        nameEn: "shirts",
+      },
+    
+      {
+        id: 5,
+        name: "шорты",
+        nameEn: "sweatshirts",
+      },
+    
+      {
+        id: 6,
+        name: "юбки",
+        nameEn: "hoodie",
+      },
+    ],
   },
 
   {

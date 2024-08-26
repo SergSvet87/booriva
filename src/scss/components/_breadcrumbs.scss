@@ -22,6 +22,7 @@
     }
 
     &__product {
+        text-transform: capitalize;
         color: $accent-pink;
     }
 }

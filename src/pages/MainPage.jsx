@@ -1,26 +1,25 @@
-import { Collection } from "../modules/Collection";
-import { Costumes } from "../modules/Costumes";
-import { Features } from "../modules/Features";
-import { Hero } from "../modules/Hero";
-import { Instagram } from "../modules/Instagram";
-import { Services } from "../modules/Services";
-// import { StoreMag } from "../modules/StoreMag";
-import { TopProduct } from "../modules/TopProduct";
-import { Store } from "../modules/Store";
+import { Collection } from '../modules/main-page/Collection';
+import { Costumes } from '../modules/main-page/Costumes';
+import { Features } from '../modules/main-page/Features';
+import { Hero } from '../modules/main-page/Hero';
+import { Instagram } from '../modules/main-page/Instagram';
+import { Services } from '../modules/main-page/Services';
+import { TopProduct } from '../modules/main-page/TopProduct';
+import { Store } from '../modules/main-page/Store';
+import { Marquee } from '../modules/main-page/Marquee';
 
 export function MainPage() {
-  return (
-    <>
-      <Hero />
-      <Features />
-      <Collection />
-      {/* <StoreMag /> */}
-      <Store />
-      <TopProduct />
-      <Costumes />
-      <Services />
-      <Instagram />
-
-    </>
-  );
+	return (
+		<>
+			<Hero />
+			<Features />
+			<Collection />
+			<Store />
+			<Marquee />
+			<TopProduct />
+			<Costumes />
+			<Services />
+			<Instagram />
+		</>
+	);
 }

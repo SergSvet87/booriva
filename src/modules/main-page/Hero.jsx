@@ -10,7 +10,7 @@ export const Hero = () => {
             <div className="hero__col-top-one">
               <NavLink
                 className="hero__col-link"
-                to={`products&category=top&subcategory=t-shirts`}
+                to={`products&category/top&subcategory/t-shirts`}
               >
                 <img src="/images/1@2x.jpg" alt="Футболки" />
               </NavLink>
@@ -19,7 +19,7 @@ export const Hero = () => {
               <div className="hero__col-left">
                 <NavLink
                   className="hero__col-link"
-                  to={`products&category=bottom`}
+                  to={`products&category/bottom`}
                 >
                   <img src="/images/2@2x.jpg" alt="Низ" />
                 </NavLink>
@@ -27,7 +27,7 @@ export const Hero = () => {
               <div className="hero__col-right">
                 <NavLink
                   className="hero__col-link"
-                  to={`products&category=top`}
+                  to={`products&category/top`}
                 >
                   <img src="/images/3@2x.jpg" alt="верх" />
                 </NavLink>
@@ -39,7 +39,7 @@ export const Hero = () => {
               <div className="hero__col-left">
                 <NavLink
                   className="hero__col-link"
-                  to={`products&category=dresses`}
+                  to={`products&category/dresses`}
                 >
                   <img src="/images/4@2x.jpg" alt="Платья" />
                 </NavLink>
@@ -47,7 +47,7 @@ export const Hero = () => {
               <div className="hero__col-right">
                 <NavLink
                   className="hero__col-link"
-                  to={`products&category=costumes`}
+                  to={`products&category/costumes`}
                 >
                   <img src="/images/5@2x.jpg" alt="костюмы" />
                 </NavLink>
@@ -56,7 +56,7 @@ export const Hero = () => {
             <div className="hero__col-bottom-one">
               <NavLink
                 className="hero__col-link"
-                to={`products&category=top&subcategory=hoodie`}
+                to={`products&category/top&subcategory/hoodie`}
               >
                 <img src="/images/6@2x.jpg" alt="Худи" />
               </NavLink>
