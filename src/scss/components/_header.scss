@@ -64,6 +64,10 @@
   }
   &__menu {
     padding-bottom: 10px;
+
+    &-link_active {
+      color: $accent-pink;
+    }
   }
   &__menu-items {
     display: flex;

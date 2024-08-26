@@ -1,6 +1,7 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+
+// import "swiper/css";
 
 export const Costumes = () => {
   return (
@@ -81,7 +82,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-1.jpg"
+              src="/images/costumes-1.jpg"
               alt="costumes"
             />
           </div>
@@ -138,7 +139,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-2.jpg"
+              src="/images/costumes-2.jpg"
               alt="costumes"
             />
           </div>
@@ -195,7 +196,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-3.jpg"
+              src="/images/costumes-3.jpg"
               alt="costumes"
             />
           </div>
@@ -252,7 +253,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-4.jpg"
+              src="/images/costumes-4.jpg"
               alt="costumes"
             />
           </div>
@@ -309,7 +310,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-1.jpg"
+              src="/images/costumes-1.jpg"
               alt="costumes"
             />
           </div>
@@ -366,7 +367,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-2.jpg"
+              src="/images/costumes-2.jpg"
               alt="costumes"
             />
           </div>
@@ -423,7 +424,7 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-3.jpg"
+              src="/images/costumes-3.jpg"
               alt="costumes"
             />
           </div>
@@ -480,16 +481,16 @@ export const Costumes = () => {
           <div className="card_costumes__pictures">
             <img
               className="card_costumes__img"
-              src="public/images/costumes-4.jpg"
+              src="/images/costumes-4.jpg"
               alt="costumes"
             />
           </div>
         </SwiperSlide>
       </Swiper>
       <div className="costumes__link">
-        <a href="#!">
-          <img src="public/images/features-button.png" alt="Cмотреть все" />
-        </a>
+        <Link to="?products&category=costumes">
+          <img src="/images/features-button.png" alt="Cмотреть все" />
+        </Link>
       </div>
     </section>
   );

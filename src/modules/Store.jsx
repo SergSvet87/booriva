@@ -1,4 +1,17 @@
+import { useState } from "react";
+import { GetDirectionsModal } from "./GetDirectionsModal";
+
 export const Store = () => {
+  const [modalGetDirectionsIsOpen, setModalGetDirectionsIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalGetDirectionsIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalGetDirectionsIsOpen(false);
+  };
+
   return (
     <section className="store">
       <div className="container store__container">
@@ -30,9 +43,16 @@ export const Store = () => {
         </div>
 
         <div className="store__btn">
-          <button type="button">проложить маршрут</button>
+          <button type="button" onClick={openModal}>
+            проложить маршрут
+          </button>
         </div>
       </div>
+
+      <GetDirectionsModal
+        isOpen={modalGetDirectionsIsOpen}
+        onRequestClose={closeModal}
+      />
     </section>
   );
 };

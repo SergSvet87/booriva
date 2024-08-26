@@ -1,19 +1,34 @@
 /* eslint-disable react/prop-types */
 // import React from 'react'
 import Modal from "react-modal";
+import { Link } from "react-router-dom";
 
-export const ProductModal = ({ isOpen, onRequestClose, data }) => {
+import { iframe } from "../utils/iframe";
+
+Modal.setAppElement("#root");
+
+const Iframe = (props) => {
+  return (
+    <div
+      dangerouslySetInnerHTML={{ __html: props.iframe ? props.iframe : "" }}
+    />
+  );
+};
+
+export const GetDirectionsModal = ({ isOpen, onRequestClose }) => {
   return (
     <Modal
       overlayClassName="overlay"
       className="modal"
       isOpen={isOpen}
       onRequestClose={onRequestClose}
-      contentLabel={`Заказать ${data.title}`}
+      contentLabel="Интерактивная карта"
     >
-      <h2 className="">{data.title}</h2>
+      <h3 className="visually-hidden">Проложить маршрут</h3>
 
-      <p className="">{data.price}&nbsp;₴</p>
+      <Link to="https://www.google.com/maps">
+        <Iframe iframe={iframe}></Iframe>
+      </Link>
 
       <button className="btnCloseCard" onClick={onRequestClose}>
         <svg

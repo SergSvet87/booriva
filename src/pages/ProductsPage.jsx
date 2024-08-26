@@ -1,20 +1,28 @@
-// import React from 'react'
+import { useLocation } from "react-router-dom";
 
 import { BreadCrumbs } from "../modules/BreadCrumbs";
-import { Card } from "../modules/product-page/Card";
-import { Instagram } from "../modules/Instagram";
-import { Services } from "../modules/Services";
+// import { Instagram } from "../modules/Instagram";
+// import { Services } from "../modules/Services";
 
 export const ProductsPage = () => {
+  const location = useLocation();
+
+  const currentCategory = new URLSearchParams(location.pathname).get(
+    "category"
+  );
+  const currentSubCategory = new URLSearchParams(location.pathname).get(
+    "subcategory"
+  );
+
   return (
     <>
-      <BreadCrumbs />
+      <BreadCrumbs category={currentCategory} subCategory={currentSubCategory} />
 
-      <Card />
+      ProductsPage
 
-      <Services />
+      {/* <Services />
 
-      <Instagram />
+      <Instagram /> */}
     </>
   );
 };
