@@ -1,41 +1,180 @@
 export const categories = [
   {
     id: 1,
-    name: "Новинки",
+    name: "новинки",
+    nameEn: "new",
+    isActive: false,
   },
 
   {
     id: 2,
-    title: "Платья",
+    name: "платья",
+    nameEn: "dresses",
+    isActive: false,
   },
 
   {
     id: 3,
-    title: "Верх",
+    name: "верх",
+    nameEn: "top",    
+    isActive: true,
+    subCategories: [
+      {
+        id: 1,
+        name: "футолки",
+        nameEn: "t-shirts",
+      },
+    
+      {
+        id: 2,
+        name: "коминезоны",
+        nameEn: "overalls",
+      },
+    
+      {
+        id: 3,
+        name: "пиджаки",
+        nameEn: "jackets",
+      },
+    
+      {
+        id: 4,
+        name: "рубашки",
+        nameEn: "shirts",
+      },
+    
+      {
+        id: 5,
+        name: "свитшоты",
+        nameEn: "sweatshirts",
+      },
+    
+      {
+        id: 6,
+        name: "худи",
+        nameEn: "hoodie",
+      },
+    
+      {
+        id: 7,
+        name: "топы",
+        nameEn: "tops",
+      },
+    ],
   },
 
   {
     id: 4,
-    title: "НИз",
+    name: "низ",
+    nameEn: "bottom",
+    isActive: false,
+    subCategories: [
+      {
+        id: 1,
+        name: "брюки",
+        nameEn: "bombers",
+      },
+    
+      {
+        id: 2,
+        name: "велосипедки",
+        nameEn: "overalls",
+      },
+    
+      {
+        id: 3,
+        name: "джинсы",
+        nameEn: "jackets",
+      },
+    
+      {
+        id: 4,
+        name: "штаны",
+        nameEn: "shirts",
+      },
+    
+      {
+        id: 5,
+        name: "шорты",
+        nameEn: "sweatshirts",
+      },
+    
+      {
+        id: 6,
+        name: "юбки",
+        nameEn: "hoodie",
+      },
+    ],
   },
 
   {
     id: 5,
-    title: "куртки",
+    name: "куртки",
+    nameEn: "jackets",
+    isActive: false,
+    subCategories: [
+      {
+        id: 1,
+        name: "бомберы",
+        nameEn: "bombers",
+      },
+    
+      {
+        id: 2,
+        name: "джинсовки",
+        nameEn: "overalls",
+      },
+    
+      {
+        id: 3,
+        name: "дождевики",
+        nameEn: "jackets",
+      },
+    
+      {
+        id: 4,
+        name: "куртки",
+        nameEn: "shirts",
+      },
+    
+      {
+        id: 5,
+        name: "пальта",
+        nameEn: "sweatshirts",
+      },
+    
+      {
+        id: 6,
+        name: "пуховики",
+        nameEn: "hoodie",
+      },
+    
+      {
+        id: 7,
+        name: "тренчи",
+        nameEn: "tops",
+      },
+    ],
   },
 
   {
     id: 6,
-    title: "Мелочи",
+    name: "мелочи",
+    nameEn: "decor",
+    isActive: false,
   },
 
   {
     id: 7,
-    title: "Костюмы",
+    name: "костюмы",
+    nameEn: "costumes",
+    isActive: false,
   },
 
   {
     id: 8,
-    title: "#Boorivagirls",
+    name: "#boorivagirls",
+    nameEn: "boorivagirls",
+    isActive: false,
   },
 ];

@@ -61,6 +61,8 @@
   }
 
   &__info {
+    width: 130px;
+
     @include mobile {
       grid-area: info;
     }

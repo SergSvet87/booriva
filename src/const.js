@@ -1,9 +1,12 @@
 export const PATHS = {
-    main: '/',
-    // about: '/about',
-    // team: '/team',
-    category: (category) => (category ? `&category=${category}` : '&category=:category'),
-    subcategory: (category) => (category ? `&subcategory=${category}` : '&subcategory=:category'),
-    productName: '/&product=bomb',
-    search: (productName) => (productName ? `&product=${productName}` : '&product=:productName'),
-  };
+	main: "/",
+	wishlist: "/wishlist",
+	cart: "/cart",
+	order: "/order",
+	// about: '/about',
+	// team: '/team',
+	category: "/products&category/:category",
+	subcategory: "/products&category/:category&subcategory/:subcategory",
+	productName: "/products&category/:category&subcategory/:subcategory&product/:productName",
+	search: "/products/searchProductName",
+};

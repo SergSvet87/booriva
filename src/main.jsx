@@ -1,16 +1,19 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { RouterProvider } from "react-router-dom";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { RouterProvider } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
-import { router } from "./router.jsx";
+import { store } from './app/store';
+import { router } from './router';
 
-import "normalize.css";
+import 'normalize.css';
 import 'swiper/css';
-import 'swiper/css/pagination';
-import "./scss/index.scss";
+import './scss/index.scss';
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router}></RouterProvider>
-  </StrictMode>
+createRoot(document.getElementById('root')).render(
+	<StrictMode>
+		<Provider store={store}>
+			<RouterProvider router={router}></RouterProvider>
+		</Provider>
+	</StrictMode>,
 );

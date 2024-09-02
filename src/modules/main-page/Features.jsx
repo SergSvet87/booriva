@@ -1,6 +1,5 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 export const Features = () => {
   return (
@@ -51,17 +50,22 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-1.jpg"
+              src="/images/new-1.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              <Link
+                to={`products&category/top&subcategory/sweatshirts&product/sweatshirt_cage_insert`}
+              >
+                <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              </Link>
               <div className="card_features__price">1 099 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -82,19 +86,24 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-2.jpg"
+              src="/images/new-2.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">
-                Платье прозрачное в цветочек черное
-              </h3>
+              <Link
+                to={`products&category/dresses&subcategory/dress&product/sheer_black_floral_dress`}
+              >
+                <h3 className="card_features__title">
+                  Платье прозрачное в цветочек черное
+                </h3>
+              </Link>
               <div className="card_features__price">1 299 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -115,17 +124,22 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-3.jpg"
+              src="/images/new-3.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              <Link
+                to={`/products&category/top&subcategory/bombers&product/bomber_gone_crazy_khaki`}
+              >
+                <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              </Link>
               <div className="card_features__price">2 499 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -146,19 +160,24 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-4.jpg"
+              src="/images/new-4.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">
-                Платье-футболка рыбы в аквариуме
-              </h3>
+              <Link
+                to={`products&category/dresses&subcategory/t-shirt_dress&product/t-shirt_dress_of_fish_in_an_aquarium`}
+              >
+                <h3 className="card_features__title">
+                  Платье-футболка рыбы в аквариуме
+                </h3>
+              </Link>
               <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -179,17 +198,22 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-1.jpg"
+              src="/images/new-1.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              <Link
+                to={`products&category/top&subcategory/sweatshirts&product/sweatshirt_cage_insert`}
+              >
+                <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              </Link>
               <div className="card_features__price">1 099 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -210,19 +234,24 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-2.jpg"
+              src="/images/new-2.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">
-                Платье прозрачное в цветочек черное
-              </h3>
+              <Link
+                to={`products&category/dresses&subcategory/dress&product/sheer_black_floral_dress`}
+              >
+                <h3 className="card_features__title">
+                  Платье прозрачное в цветочек черное
+                </h3>
+              </Link>
               <div className="card_features__price">1 299 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -243,17 +272,22 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-3.jpg"
+              src="/images/new-3.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              <Link
+                to={`products&category/jackets&subcategory/bombers&product/bomber_gone_crazy_khaki`}
+              >
+                <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              </Link>
               <div className="card_features__price">2 499 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -274,19 +308,24 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-4.jpg"
+              src="/images/new-4.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">
-                Платье-футболка рыбы в аквариуме
-              </h3>
+              <Link
+                to={`products&category/dresses&subcategory/t-shirt_dress&product/t-shirt_dress_of_fish_in_an_aquarium`}
+              >
+                <h3 className="card_features__title">
+                  Платье-футболка рыбы в аквариуме
+                </h3>
+              </Link>
               <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -307,17 +346,22 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-1.jpg"
+              src="/images/new-1.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              <Link
+                to={`products&category/top&subcategory/sweatshirts&product/sweatshirt_cage_insert`}
+              >
+                <h3 className="card_features__title">Cвитшот вставка клетка</h3>
+              </Link>
               <div className="card_features__price">1 099 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -338,19 +382,24 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-2.jpg"
+              src="/images/new-2.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">
-                Платье прозрачное в цветочек черное
-              </h3>
+              <Link
+                to={`products&category/dresses&subcategory/dress&product/sheer_black_floral_dress`}
+              >
+                <h3 className="card_features__title">
+                  Платье прозрачное в цветочек черное
+                </h3>
+              </Link>
               <div className="card_features__price">1 299 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -371,17 +420,22 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-3.jpg"
+              src="/images/new-3.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              <Link
+                to={`products&category/jackets&subcategory/bombers&product/bomber_gone_crazy_khaki`}
+              >
+                <h3 className="card_features__title">Бомбер Gone Crazy хаки</h3>
+              </Link>
               <div className="card_features__price">2 499 ₴</div>
             </div>
           </div>
         </SwiperSlide>
+
         <SwiperSlide className="card_features">
           <div className="card_features__fav-btn">
             <button>
@@ -402,24 +456,28 @@ export const Features = () => {
           <div className="card_features__picture">
             <img
               className="card_features__img"
-              src="public/images/new-4.jpg"
+              src="/images/new-4.jpg"
               alt="Cвитшот вставка клетка"
             />
           </div>
           <div className="card_features__body">
             <div className="card_features__cols">
-              <h3 className="card_features__title">
-                Платье-футболка рыбы в аквариуме
-              </h3>
+              <Link
+                to={`products&category/dresses&subcategory/t-shirt_dress&product/t-shirt_dress_of_fish_in_an_aquarium`}
+              >
+                <h3 className="card_features__title">
+                  Платье-футболка рыбы в аквариуме
+                </h3>
+              </Link>
               <div className="card_features__price">899 ₴</div>
             </div>
           </div>
         </SwiperSlide>
       </Swiper>
       <div className="features__link">
-        <a href="#!">
-          <img src="public/images/features-button.png" alt="Cмотреть все" />
-        </a>
+        <Link to="?products&category=new">
+          <img src="/images/features-button.png" alt="Cмотреть все" />
+        </Link>
       </div>
     </section>
   );

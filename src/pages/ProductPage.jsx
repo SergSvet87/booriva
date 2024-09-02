@@ -1,40 +1,53 @@
-// import React from 'react'
+import { useParams } from 'react-router-dom';
 
-import { BreadCrumbs } from "../modules/BreadCrumbs";
-import { Card } from "../modules/product-page/Card";
-import { Instagram } from "../modules/Instagram";
-import { Services } from "../modules/Services";
+import { BreadCrumbs } from '../modules/BreadCrumbs';
+import { ProductDetails } from '../modules/product-page/ProductDetails';
+import { Instagram } from '../modules/main-page/Instagram';
+import { Services } from '../modules/main-page/Services';
 
 const data = [
-  {
-    id: 1,
-    title: "Бомбер Gone Crazy хаки",
-    images: [
-      "/public/images/product-slide-1.png",
-      "/public/images/product-slide-2.png",
-      "/public/images/product-slide-3.png",
-      "/public/images/product-slide-4.png",
-      "/public/images/product-slide-1.png",
-      "/public/images/product-slide-3.png",
-    ],
-    price: 2499,
-    additional: ["50% вискоза", "50% полиэстер"],
-    sizes: ["XS - s", "s - m", "m - l", "l - xl"],
-    description:
-      "Over size бомбер цвета хаки на резинке с объемными рукавами. Фурнитура выполнена в серебряном цвете. Акцентными деталями выступают объемные нашитые карманы и капюшон, который отстёгивается. Один",
-  },
+	{
+		id: 1,
+		title: 'Бомбер Gone Crazy хаки',
+		images: {
+			small: [
+				'/images/product-slide-1.png',
+				'/images/product-slide-2.png',
+				'/images/product-slide-3.png',
+				'/images/product-slide-4.png',
+				'/images/product-slide-1.png',
+				'/images/product-slide-3.png',
+			],
+
+			big: [
+				'/images/product-slide-1.png',
+				'/images/product-slide-2.png',
+				'/images/new-3.jpg',
+				'/images/product-slide-4.png',
+				'/images/product-slide-1.png',
+				'/images/new-3.jpg',
+			],
+		},
+		price: 2499,
+		additional: ['50% вискоза', '50% полиэстер'],
+		sizes: ['XS - s', 's - m', 'm - l', 'l - xl'],
+		description:
+			'Over size бомбер цвета хаки на резинке с объемными рукавами. Фурнитура выполнена в серебряном цвете. Акцентными деталями выступают объемные нашитые карманы и капюшон, который отстёгивается. Один',
+	},
 ];
 
 export const ProductPage = () => {
-  return (
-    <>
-      <BreadCrumbs />
+	const { category, subcategory, productName } = useParams();
 
-      <Card data={data[0]} />
+	return (
+		<>
+			<BreadCrumbs category={category} subCategory={subcategory} product={productName} />
 
-      <Services />
+			<ProductDetails data={data[0]} />
 
-      <Instagram />
-    </>
-  );
+			<Services />
+
+			<Instagram />
+		</>
+	);
 };

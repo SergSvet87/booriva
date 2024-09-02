@@ -1,0 +1,671 @@
+[
+    {
+      "id": "3184803604",
+      "title": "Бомбер Gone Crazy хакі",
+      "price": 2499,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Over size бомбер кольору хакі на резинці з об'ємними рукавами. Фурнітура виконана у срібному кольорі. Акцентними деталями виступають об'ємні нашиті кишені та капюшон, що відстібається. Один",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "4593457527",
+      "title": "Супер сырный",
+      "price": 550,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Супер сырное наслаждение! Большая рубленая котлета из свежего мраморного говяжего мяса покорит вас своей сочностью, а сыра то сыра сколько: Пармезан, Гауда, Чеддер и Блю Чиз.",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "8818264880",
+      "title": "Сытный",
+      "price": 639,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Супер сытное наслаждение! Два огромных бифштекса приготовленых по-домашнему покорит вас своей сытностью.",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "4667225618",
+      "title": "Тяжелый удар",
+      "price": 480,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Нужно быть в себе уверенным на 100%, чтобы его съесть! Две огромные свинные котлеты приготовленых на огне сведут тебя с ума сочностью и вкусом.",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "1223980593",
+      "title": "Вечная классика",
+      "price": 450,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Вкуснейшая 100% классика",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "3355055171",
+      "title": "Итальянский",
+      "price": 560,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Вкуснейшая 100% классика",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "7029852449",
+      "title": "Начос",
+      "price": 250,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Хрустящие чипсы из кукурузной тортильи",
+     "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "7696061170",
+      "title": "Картошка фри",
+      "price": 245,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "У нас он именно такой, каким любят его во всем мире — мягкий, рассыпчатый внутри и аппетитно хрустящий снаружи. Картофель нарезается крупными ломтиками и обжаривается в свежем фритюре. Для приготовления используются лучшие сорта. Хрустящее и сочное блюдо с разными соусами ждет вас!",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "3781849650",
+      "title": "Луковые кольца",
+      "price": 230,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Кольца из рубленного лука в панировке",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "0700847980",
+      "title": "Домашний хот-дог",
+      "price": 265,
+     "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Вкусно, по-домашнему",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "8818709061",
+      "title": "Хот-дог Premium",
+      "price": 385,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Рубленый бифштекс из натуральной говядины и свинины, а вы уверены что это хот-дог?",
+      "composition": [
+        "50% віскоза",
+        "50% поліестер"
+      ],
+      "category": "верх",
+      "subcategory": "бомбер",
+      "images": {
+        "small": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/product-slide-3.png",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/product-slide-3.png"
+        ],
+
+        "big": [
+          "/images/product-slide-1.png",
+          "/images/product-slide-2.png",
+          "/images/new-3.jpg",
+          "/images/product-slide-4.png",
+          "/images/product-slide-1.png",
+          "/images/new-3.jpg"
+        ]
+      }
+    },
+    {
+      "id": "4856056854",
+      "title": "Double Chiken",
+      "price": 315,
+      "sizes": [
+        "xs - s",
+        "s - m",
+        "m - l",
+        "l - xl"
+      ],
+      "description": "Для любителей курочки",
+      "ingredients": [
+        "Булочка",
+        "Копченая сосиска",
+        "Курица горячего копчения",
+        "Сыр Чеддер",
+        "Луковые колечки",
+        "Маринованный огурец",
+        "Помидор",
+        "Картофельные чипсы",
+        "Соус"
+      ],
+      "category": "hot-dog",
+      "image": "img/4856056854.jpg"
+    },
+    {
+      "id": "7445538462",
+      "title": "Классический хот-дог",
+      "price": 160,
+      "weight": 200,
+      "calories": 390,
+      "description": "Нестареющая классика",
+      "ingredients": ["Булочка", "Сосиска", "Соусы"],
+      "category": "hot-dog",
+      "image": "img/7445538462.jpg"
+    },
+    {
+      "id": "0245702138",
+      "title": "Жгучий хот-дог",
+      "price": 280,
+      "weight": 250,
+      "calories": 610,
+      "description": "Для любителей остеренького",
+      "ingredients": [
+        "Булочка",
+        "Говяжья сосиска",
+        "Халапень",
+        "Корейская морковь",
+        "Острый соус"
+      ],
+      "category": "hot-dog",
+      "image": "img/0245702138.jpg"
+    },
+    {
+      "id": "6194519395",
+      "title": "Шаурма деревенская",
+      "price": 322,
+      "weight": 310,
+      "calories": 580,
+      "description": "Лучшее с ограды и огорода. Если тебе знакомы эти слова, то тебе точно понравится",
+      "ingredients": [
+        "Тортилья",
+        "Курочка гриль",
+        "Маринованные огурчики",
+        "Солёная капуста",
+        "Опята",
+        "Чесночный соус",
+        "Обжаренный лук"
+      ],
+      "category": "shawarma",
+      "image": "img/6194519395.jpg"
+    },
+    {
+      "id": "2620495882",
+      "title": "Шаурма молодежная",
+      "price": 305,
+      "weight": 320,
+      "calories": 620,
+      "description": "Вкусно, сытно, удобно!",
+      "ingredients": [
+        "Тортилья",
+        "Мясо курицы",
+        "Картофель фри",
+        "Пекинская капуста",
+        "Огурцы маринованные",
+        "Помидоры свежие",
+        "Соус"
+      ],
+      "category": "shawarma",
+      "image": "img/2620495882.jpg"
+    },
+    {
+      "id": "4941077801",
+      "title": "Combo-wombo",
+      "price": 990,
+      "weight": 1200,
+      "calories": 1500,
+      "description": "2 любых бургера и картофель фри",
+      "ingredients": [
+        "Бургер",
+        "Бургер",
+        "Картофель фри",
+        "Соус на выбор"
+      ],
+      "category": "combo",
+      "image": "img/4941077801.jpg"
+    },
+    {
+      "id": "1110641351",
+      "title": "Фета",
+      "price": 790,
+      "weight": 470,
+      "calories": 1605,
+      "description": "Пицца с творожным сыром, красным соусом, рукколой",
+      "ingredients": [
+        "Тонкое тесто",
+        "Красный соус",
+        "Моцарелла",
+        "Руккола",
+        "Творожный сыр"
+      ],
+      "category": "pizza",
+      "image": "img/1110641351.jpg"
+    },
+    {
+      "id": "8671991648",
+      "title": "Рио",
+      "price": 850,
+      "weight": 550,
+      "calories": 1350,
+      "description": "Пицца с ветчиной, курицей, сладким перцем, оливками",
+      "ingredients": [
+        "Тонкое тестое",
+        "Томатный соус",
+        "Ветчина",
+        "Курица",
+        "Шампиньоны",
+        "Сладкий перец",
+        "Помидоры черри",
+        "Оливки"
+      ],
+      "category": "pizza",
+      "image": "img/8671991648.jpg"
+    },
+    {
+      "id": "8297617295",
+      "title": "Оливия",
+      "price": 750,
+      "weight": 550,
+      "calories": 1350,
+      "description": "Пицца с вялеными томатами, оливками, сыром моцарелла",
+      "ingredients": [
+        "Пышное тесто",
+        "Сметанный соус",
+        "Глазунья",
+        "Сыр моцарелла",
+        "Вяленые томаты",
+        "Оливки"
+      ],
+      "category": "pizza",
+      "image": "img/8297617295.jpg"
+    },
+    {
+      "id": "1908233603",
+      "title": "Рустик",
+      "price": 460,
+      "weight": 600,
+      "calories": 2028,
+      "description": "Пироженное с открытыми коржами, творожным кремом, голубикой, грецким орехом",
+      "ingredients": [
+        "Бисквитные коржи",
+        "Творожный крем",
+        "Голубика",
+        "Грецкий орех"
+      ],
+      "category": "dessert",
+      "image": "img/1908233603.jpg"
+    },
+    {
+      "id": "8136304087",
+      "title": "Пончик",
+      "price": 99,
+      "weight": 70,
+      "calories": 320,
+      "description": "Классичесий пончик",
+      "ingredients": [
+        "Пончик",
+        "Посыпка",
+        "Глазурь",
+        "Начинка на выбор"
+      ],
+      "category": "dessert",
+      "image": "img/8136304087.jpg"
+    },
+    {
+      "id": "7477216608",
+      "title": "Чизкейк Нью-Йорк",
+      "price": 235,
+      "weight": 100,
+      "calories": 350,
+      "description": "Настоящая американская классика — нежный чизкейк из сливочно-творожной начинки с ванильной ноткой на тонкой песочно-миндальной подложке. Сверху десерт покрыт желе из абрикосового конфитюра, украшен свежей малиной и сахарной пудрой.",
+      "ingredients": [
+        "Печенье песочное",
+        "Масло сливочное",
+        "Сыр сливочный ",
+        "Сахар",
+        "Яйца",
+        "Сливки"
+      ],
+      "category": "dessert",
+      "image": "img/7477216608.jpg"
+    },
+    {
+      "id": "1922643833",
+      "title": "Ореховый",
+      "price": 60,
+      "weight": 40,
+      "calories": 156,
+      "description": "Соус Гамадари - ореховый соус на основе арахиса. Отлично подходит к овощам и холодным закускам",
+      "ingredients": [
+        "Арахис",
+        "Кунжут",
+        "Мирин",
+        "Кунжутное масло"
+      ],
+      "category": "sauce",
+      "image": "img/1922643833.jpg"
+    },
+    {
+      "id": "5235966546",
+      "title": "Сметанный соус",
+      "price": 40,
+      "weight": 40,
+      "calories": 178,
+      "description": "Сметанный острый соус - слегка острый, обладает приятным вкусом с нежной сливочной нотой.",
+      "ingredients": [
+        "Сметана",
+        "Майонез",
+        "Лайм",
+        "Васаби"
+      ],
+      "category": "sauce",
+      "image": "img/5235966546.jpg"
+    },
+    {
+      "id": "8542732392",
+      "title": "Соус Шрирача",
+      "price": 40,
+      "weight": 40,
+      "calories": 112,
+      "description": "Тайский соус на основе красного перца чили, для тех, кто любит поострее!",
+      "ingredients": [
+        "Перец чили",
+        "Чеснок",
+        "Коричневый сахар",
+        "Соль",
+        "Белый уксус"
+      ],
+      "category": "sauce",
+      "image": "img/8542732392.jpg"
+    }
+  ]
+  

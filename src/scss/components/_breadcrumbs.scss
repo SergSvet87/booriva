@@ -12,7 +12,8 @@
         gap: 8px;
     }
 
-    a {
+    &__link {
+        text-transform: capitalize;
         transition: color 0.3s ease-in-out;
 
         &:hover {
@@ -20,7 +21,8 @@
         }
     }
 
-    span:last-child {
+    &__product {
+        text-transform: capitalize;
         color: $accent-pink;
     }
 }

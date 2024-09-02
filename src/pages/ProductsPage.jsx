@@ -1,20 +1,14 @@
-// import React from 'react'
+import { useParams } from "react-router-dom";
 
 import { BreadCrumbs } from "../modules/BreadCrumbs";
-import { Card } from "../modules/product-page/Card";
-import { Instagram } from "../modules/Instagram";
-import { Services } from "../modules/Services";
 
 export const ProductsPage = () => {
+  const { category, subcategory } = useParams();
+
   return (
     <>
-      <BreadCrumbs />
-
-      <Card />
-
-      <Services />
-
-      <Instagram />
+      <BreadCrumbs category={category} subCategory={subcategory} />
+      <h1>ProductsPage</h1>
     </>
   );
 };
