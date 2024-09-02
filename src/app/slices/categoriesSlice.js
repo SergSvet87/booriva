@@ -1,28 +1,23 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+import { categories } from '../../utils/categories';
+
+const initialState = {
+	categories: categories,
+	error: '',
+	activeCategory: 0,
+};
+
 export const categoriesSlice = createSlice({
 	name: 'categories',
-	initialState: {
-		value: 0,
-	},
+	initialState,
 	reducers: {
-		increment: (state) => {
-			// Redux Toolkit позволяет нам писать "мутабельную" логику в reducer'ах.
-			// Это не изменяет состояние(state) напрямую, потому что внутри используется библиотека Immer,
-			// которая следит за изменениями в "черновом state" и создает новое
-			// неизменное состояние на основе этих изменений
-			state.value += 1;
-		},
-		decrement: (state) => {
-			state.value -= 1;
-		},
-		incrementByAmount: (state, action) => {
-			state.value += action.payload;
+		changeCategory(state, action) {
+			state.activeCategory = action.payload.indexCategory;
 		},
 	},
 });
 
-// Функция действия генерируется на каждую функцию релюсера(reducer), определённую в createSlice
-export const { increment, decrement, incrementByAmount } = categoriesSlice.actions;
+export const { changeCategory } = categoriesSlice.actions;
 
 export default categoriesSlice.reducer;
