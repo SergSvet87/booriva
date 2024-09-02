@@ -1,0 +1,54 @@
+.filter {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #333; // Optional: Set a background color
+  padding: 10px;
+  width: 200px;
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ff69b4; // Pink color for section headers
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      margin-bottom: 5px;
+      position: relative;
+
+      ul {
+        display: none;
+        padding-left: 15px;
+
+        li {
+          font-size: 14px;
+        }
+
+        li:hover label {
+          color: #ff69b4;
+        }
+      }
+    }
+
+    li:hover {
+      color: #ff69b4; // Hover effect
+      cursor: pointer;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="radio"]:checked + label {
+      color: #ff69b4; // Pink color to highlight the selected option
+    }
+
+    label {
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
+}
